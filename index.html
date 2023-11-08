@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
+      <title>Pricing component</title>
+      <link rel="stylesheet" href="styles.css">
+      <script src="index.js"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+   </head>
+    <body> 
+      <h1 class="heading">Our Pricing</h1> 
+      <div class="subsription">
+        <div class="annually">Annually</div>
+        <div>
+          <label class="toggleSwitch">
+            <input type="checkbox" onchange="checkboxFunc()" class="box" checked>
+            <span class="slider round"></span>
+          </label>      
+        </div>
+        <div class="monthly">Monthly</div>
+      </div> 
+      <div class="plans">
+          <div class="plan1">
+            <h3 class="text">Basic<h3/> 
+            <h1 class="price" id="p1">&dollar;19.99</h1> 
+            <hr>
+            <h3 class="storage">500 GB Storage</h3>
+            <hr>
+            <h3 class="usersAllowed">2 Users Allowed</h3>
+            <hr>
+            <h3 class="sharingData">Send up to 3 GB</h3>
+            <hr>
+            <button class="btn">LEARN MORE</button>
+          </div>
+          <div class="plan2">
+              <h3 class="text">Professional<h3/> 
+              <h1 class="price" id="p2">&dollar;24.99</h1> 
+              <hr>
+              <h3 class="storage">1 TB Storage</h3>
+              <hr>
+              <h3 class="usersAllowed">5 Users Allowed</h3>
+              <hr>
+              <h3 class="sharingData">Send up to 10 GB</h3>
+              <hr>
+              <button class="btn">LEARN MORE</button>
+          </div>
+          <div class="plan3">
+                <h3 class="text">Master<h3/> 
+                <h1 class="price" id="p3">&dollar;39.99</h1> 
+                <hr>
+                <h3 class="storage">2 TB Storage</h3>
+                <hr>
+                <h3 class="usersAllowed">10 Users Allowed</h3>
+                <hr>
+                <h3 class="sharingData">Send up to 20 GB</h3>
+                <hr>
+                <button class="btn">LEARN MORE</button>
+          </div>  
+              <img src="./images/bg-top.svg" class="background-img1" alt="background-img1">
+              <img src="./images/bg-bottom.svg" class="background-img2" alt="background-img2">
+       </div>
+
+  </body>
+</html>
